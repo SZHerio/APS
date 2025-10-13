@@ -1,21 +1,15 @@
 Vivado Simulator 2018.3
 Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 0e5960f647824c38bc573cd3eaa7da63 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot lab_01_tb_fulladder4_behav xil_defaultlib.lab_01_tb_fulladder4 xil_defaultlib.glbl -log elaborate.log 
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 0e5960f647824c38bc573cd3eaa7da63 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot lab_01_tb_fulladder32_behav xil_defaultlib.lab_01_tb_fulladder32 xil_defaultlib.glbl -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
-WARNING: [VRFC 10-3486] invalid context for genvar 'i' [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/fulladder4.sv:20]
 Completed static elaboration
 Starting simulation data flow analysis
-WARNING: [XSIM 43-4100] "C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/fulladder4.sv" Line 3. Module fulladder4_default has a timescale but at least one module in design doesn't have timescale.
-WARNING: [XSIM 43-4100] "C:/Users/SZHerio/Desktop/fulladder1.sv" Line 3. Module fulladder1 has a timescale but at least one module in design doesn't have timescale.
-WARNING: [XSIM 43-4100] "C:/Users/SZHerio/Desktop/fulladder1.sv" Line 3. Module fulladder1 has a timescale but at least one module in design doesn't have timescale.
-WARNING: [XSIM 43-4100] "C:/Users/SZHerio/Desktop/fulladder1.sv" Line 3. Module fulladder1 has a timescale but at least one module in design doesn't have timescale.
-WARNING: [XSIM 43-4100] "C:/Users/SZHerio/Desktop/fulladder1.sv" Line 3. Module fulladder1 has a timescale but at least one module in design doesn't have timescale.
-WARNING: [XSIM 43-4100] "C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
 Compiling module xil_defaultlib.fulladder1
 Compiling module xil_defaultlib.fulladder4_default
-Compiling module xil_defaultlib.lab_01_tb_fulladder4
+Compiling module xil_defaultlib.fulladder32_default
+Compiling module xil_defaultlib.lab_01_tb_fulladder32
 Compiling module xil_defaultlib.glbl
-Built simulation snapshot lab_01_tb_fulladder4_behav
+Built simulation snapshot lab_01_tb_fulladder32_behav

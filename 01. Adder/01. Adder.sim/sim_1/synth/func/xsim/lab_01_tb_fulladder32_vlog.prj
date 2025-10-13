@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"lab_01_tb_fulladder32_func_synth.v" \
+
+sv xil_defaultlib  \
+"../../../../../../../../Downloads/lab_01.tb_fulladder32.sv" \
+
+# Do not sort compile order
+nosort

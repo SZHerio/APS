@@ -40,4 +40,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log fulladder1.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source fulladder1.tcl
+EAStep vivado -log nexys_adder.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source nexys_adder.tcl

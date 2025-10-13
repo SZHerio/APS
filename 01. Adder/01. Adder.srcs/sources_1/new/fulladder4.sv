@@ -17,7 +17,7 @@ generate
             .a_i(a_i[0]),
             .b_i(b_i[0]),
             .carry_i(carry_i),
-            .sum_o(sum_o[i]),
+            .sum_o(sum_o[0]),
             .carry_o(carry[0])
         );
         
