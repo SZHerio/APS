@@ -2,25 +2,28 @@
 # Vivado v2018.3 (64-bit)
 # SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
 # IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
-# Start of session at: Mon Oct 13 20:04:25 2025
-# Process ID: 11604
+# Start of session at: Mon Oct 13 22:31:47 2025
+# Process ID: 36056
 # Current directory: C:/Users/SZHerio/Desktop/APS/01. Adder
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14924 C:\Users\SZHerio\Desktop\APS\01. Adder\01. Adder.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2632 C:\Users\SZHerio\Desktop\APS\01. Adder\01. Adder.xpr
 # Log file: C:/Users/SZHerio/Desktop/APS/01. Adder/vivado.log
 # Journal file: C:/Users/SZHerio/Desktop/APS/01. Adder\vivado.jou
 #-----------------------------------------------------------
 start_gui
 open_project {C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.xpr}
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/SZHerio/Downloads/lab_01.tb_fulladder.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/SZHerio/Downloads/lab_01.tb_fulladder32.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/SZHerio/Downloads/lab_01.tb_fulladder4.sv'.
 Scanning sources...
 Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
-open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 804.730 ; gain = 160.738
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:05 . Memory (MB): peak = 824.699 ; gain = 138.328
 update_compile_order -fileset sources_1
 reset_run impl_1 -prev_step 
 launch_runs impl_1 -to_step write_bitstream -jobs 8
-[Mon Oct 13 20:04:50 2025] Launched impl_1...
+[Mon Oct 13 22:32:13 2025] Launched impl_1...
 Run output will be captured here: C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.runs/impl_1/runme.log
 exit
-INFO: [Common 17-206] Exiting Vivado at Mon Oct 13 20:06:33 2025...
+INFO: [Common 17-206] Exiting Vivado at Mon Oct 13 22:33:17 2025...

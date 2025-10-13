@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
-| Date         : Mon Oct 13 20:02:50 2025
+| Date         : Mon Oct 13 22:31:01 2025
 | Host         : DESKTOP-B526498 running 64-bit major release  (build 9200)
 | Command      : report_timing_summary -max_paths 10 -file nexys_adder_timing_summary_routed.rpt -pb nexys_adder_timing_summary_routed.pb -rpx nexys_adder_timing_summary_routed.rpx -warn_on_violation
 | Design       : nexys_adder

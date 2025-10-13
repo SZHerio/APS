@@ -1,0 +1,333 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Oct 13 22:20:08 2025
+# Process ID: 8200
+# Current directory: C:/Users/SZHerio/Desktop/APS/01. Adder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent25392 C:\Users\SZHerio\Desktop\APS\01. Adder\01. Adder.xpr
+# Log file: C:/Users/SZHerio/Desktop/APS/01. Adder/vivado.log
+# Journal file: C:/Users/SZHerio/Desktop/APS/01. Adder\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.xpr}
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/SZHerio/Downloads/nexys_adder.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/SZHerio/Desktop/fulladder1.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/SZHerio/Downloads/nexys_a7_100t.xdc'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/SZHerio/Downloads/lab_01.tb_fulladder.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/SZHerio/Downloads/lab_01.tb_fulladder32.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/SZHerio/Downloads/lab_01.tb_fulladder4.sv'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:07 . Memory (MB): peak = 837.109 ; gain = 135.637
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+add_files -norecurse {{C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/lab_01.tb_fulladder4.sv} {C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/lab_01.tb_fulladder32.sv} {C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_adder.sv} {C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/lab_01.tb_fulladder.sv}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/lab_01.tb_fulladder.sv}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/lab_01.tb_fulladder32.sv}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/lab_01.tb_fulladder4.sv}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/lab_01.tb_fulladder.sv} {C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/lab_01.tb_fulladder32.sv} {C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/lab_01.tb_fulladder4.sv}}
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse {{C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/lab_01.tb_fulladder4.sv} {C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/lab_01.tb_fulladder32.sv} {C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/lab_01.tb_fulladder.sv}}
+update_compile_order -fileset sim_1
+file mkdir C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/constrs_1
+can't create directory "C:/Users/SZHerio/Desktop/APS/01.": file already exists
+add_files -fileset constrs_1 -norecurse {{C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc}}
+export_ip_user_files -of_objects  [get_files C:/Users/SZHerio/Desktop/fulladder1.sv] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/SZHerio/Downloads/nexys_adder.sv] -no_script -reset -force -quiet
+remove_files  {C:/Users/SZHerio/Desktop/fulladder1.sv C:/Users/SZHerio/Downloads/nexys_adder.sv}
+export_ip_user_files -of_objects  [get_files C:/Users/SZHerio/Downloads/nexys_a7_100t.xdc] -no_script -reset -force -quiet
+remove_files  -fileset constrs_1 C:/Users/SZHerio/Downloads/nexys_a7_100t.xdc
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a100ticsg324-1L
+Top: nexys_adder
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 986.824 ; gain = 70.637
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'nexys_adder' [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_adder.sv:11]
+	Parameter pwm bound to: 1000 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'fulladder32' [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/fulladder32.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'fulladder4' [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/fulladder4.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'fulladder1' [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/fulladder1.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'fulladder1' (1#1) [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/fulladder1.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'fulladder4' (2#1) [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/fulladder4.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'fulladder32' (3#1) [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/fulladder32.sv:3]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_adder.sv:82]
+INFO: [Synth 8-6155] done synthesizing module 'nexys_adder' (4#1) [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_adder.sv:11]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1030.746 ; gain = 114.559
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1030.746 ; gain = 114.559
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1030.746 ; gain = 114.559
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100ticsg324-1L
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc]
+WARNING: [Vivado 12-584] No ports matched 'clk_i'. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'clk_i'. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:9]
+CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports clk_i]'. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:9]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-584] No ports matched 'sw_i[0]'. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw_i[1]'. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw_i[2]'. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw_i[3]'. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw_i[4]'. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw_i[5]'. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw_i[6]'. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw_i[7]'. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw_i[8]'. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw_i[9]'. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw_i[10]'. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw_i[11]'. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw_i[12]'. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw_i[13]'. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw_i[14]'. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw_i[15]'. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led_o[0]'. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led_o[1]'. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led_o[2]'. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led_o[3]'. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led_o[4]'. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led_o[5]'. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led_o[6]'. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led_o[7]'. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led_o[8]'. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led_o[9]'. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led_o[10]'. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led_o[11]'. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led_o[12]'. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led_o[13]'. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led_o[14]'. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led_o[15]'. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ca_o'. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:57]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:57]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'cb_o'. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:58]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:58]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'cc_o'. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:59]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:59]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'cd_o'. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:60]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:60]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ce_o'. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:61]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:61]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'cf_o'. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:62]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:62]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'cg_o'. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:63]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:63]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'dp_o'. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:64]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:64]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an_o[0]'. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:65]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:65]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an_o[1]'. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:66]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:66]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an_o[2]'. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:67]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:67]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an_o[3]'. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:68]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:68]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an_o[4]'. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:69]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:69]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an_o[5]'. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:70]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:70]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an_o[6]'. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:71]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:71]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an_o[7]'. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:72]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:72]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'arstn_i'. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:75]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc:75]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1328.156 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:19 ; elapsed = 00:00:10 . Memory (MB): peak = 1551.816 ; gain = 635.629
+13 Infos, 51 Warnings, 51 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:11 . Memory (MB): peak = 1551.816 ; gain = 635.629
+close_design
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'lab_01_tb_fulladder' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj lab_01_tb_fulladder_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/lab_01.tb_fulladder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab_01_tb_fulladder
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 0e5960f647824c38bc573cd3eaa7da63 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot lab_01_tb_fulladder_behav xil_defaultlib.lab_01_tb_fulladder xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/SZHerio/Desktop/fulladder1.sv" Line 3. Module fulladder has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.fulladder
+Compiling module xil_defaultlib.lab_01_tb_fulladder
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot lab_01_tb_fulladder_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "lab_01_tb_fulladder_behav -key {Behavioral:sim_1:Functional:lab_01_tb_fulladder} -tclbatch {lab_01_tb_fulladder.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source lab_01_tb_fulladder.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+
+Test has been started
+
+
+Test has been finished. Check results at waveform window.
+
+$finish called at time : 45 ns : File "C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/lab_01.tb_fulladder.sv" Line 40
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'lab_01_tb_fulladder_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1574.562 ; gain = 0.000
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Mon Oct 13 22:24:26 2025] Launched synth_1...
+Run output will be captured here: C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.runs/synth_1/runme.log
+[Mon Oct 13 22:24:26 2025] Launched impl_1...
+Run output will be captured here: C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.runs/impl_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Mon Oct 13 22:29:37 2025] Launched synth_1...
+Run output will be captured here: C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.runs/synth_1/runme.log
+[Mon Oct 13 22:29:37 2025] Launched impl_1...
+Run output will be captured here: C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Oct 13 22:31:42 2025...

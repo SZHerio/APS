@@ -31,10 +31,10 @@ set_property target_language Verilog [current_project]
 set_property ip_output_repo {c:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.cache/ip} [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 read_verilog -library xil_defaultlib -sv {
-  C:/Users/SZHerio/Desktop/fulladder1.sv
+  {C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/fulladder1.sv}
   {C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/fulladder32.sv}
   {C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/fulladder4.sv}
-  C:/Users/SZHerio/Downloads/nexys_adder.sv
+  {C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_adder.sv}
 }
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
@@ -44,8 +44,8 @@ read_verilog -library xil_defaultlib -sv {
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc C:/Users/SZHerio/Downloads/nexys_a7_100t.xdc
-set_property used_in_implementation false [get_files C:/Users/SZHerio/Downloads/nexys_a7_100t.xdc]
+read_xdc {{C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc}}
+set_property used_in_implementation false [get_files {{C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/nexys_a7_100t.xdc}}]
 
 set_param ips.enableIPCacheLiteLoad 1
 close [open __synthesis_is_running__ w]

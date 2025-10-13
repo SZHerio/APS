@@ -5,7 +5,4 @@ Dec  7 2018
 C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
 C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/fulladder32.sv,1760374533,systemVerilog,,C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/fulladder4.sv,,fulladder32,,,,,,,,
 C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/fulladder4.sv,1760374313,systemVerilog,,C:/Users/SZHerio/Downloads/lab_01.tb_fulladder32.sv,,fulladder4,,,,,,,,
-C:/Users/SZHerio/Desktop/fulladder1.sv,1760374107,systemVerilog,,C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/fulladder32.sv,,fulladder1,,,,,,,,
-C:/Users/SZHerio/Downloads/lab_01.tb_fulladder.sv,1760331079,systemVerilog,,,,lab_01_tb_fulladder,,,,,,,,
-C:/Users/SZHerio/Downloads/lab_01.tb_fulladder32.sv,1760372746,systemVerilog,,,,lab_01_tb_fulladder32,,,,,,,,
-C:/Users/SZHerio/Downloads/lab_01.tb_fulladder4.sv,1760335193,systemVerilog,,,,lab_01_tb_fulladder4,,,,,,,,
+C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/lab_01.tb_fulladder.sv,1760331079,systemVerilog,,,,lab_01_tb_fulladder,,,,,,,,

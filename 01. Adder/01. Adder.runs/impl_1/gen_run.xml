@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a100ticsg324-1L" LaunchTime="1760374888">
+<GenRun Id="impl_1" LaunchPart="xc7a100ticsg324-1L" LaunchTime="1760383777">
   <File Type="ROUTE-PWR" Name="nexys_adder_power_routed.rpt"/>
   <File Type="PA-TCL" Name="nexys_adder.tcl"/>
   <File Type="BITSTR-BMM" Name="nexys_adder_bd.bmm"/>
@@ -52,7 +52,7 @@
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
-    <File Path="$PPRDIR/../../fulladder1.sv">
+    <File Path="$PSRCDIR/sources_1/new/fulladder1.sv">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -73,7 +73,7 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../../Downloads/nexys_adder.sv">
+    <File Path="$PSRCDIR/sources_1/new/nexys_adder.sv">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -88,7 +88,7 @@
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
     <Filter Type="Constrs"/>
-    <File Path="$PPRDIR/../../../Downloads/nexys_a7_100t.xdc">
+    <File Path="$PSRCDIR/sources_1/new/nexys_a7_100t.xdc">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>

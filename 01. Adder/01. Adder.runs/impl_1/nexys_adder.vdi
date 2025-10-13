@@ -2,8 +2,8 @@
 # Vivado v2018.3 (64-bit)
 # SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
 # IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
-# Start of session at: Mon Oct 13 20:05:02 2025
-# Process ID: 3124
+# Start of session at: Mon Oct 13 22:32:25 2025
+# Process ID: 2624
 # Current directory: C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.runs/impl_1
 # Command line: vivado.exe -log nexys_adder.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source nexys_adder.tcl -notrace
 # Log file: C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.runs/impl_1/nexys_adder.vdi
@@ -14,7 +14,7 @@ Command: open_checkpoint nexys_adder_routed.dcp
 
 Starting open_checkpoint Task
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 247.855 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 249.758 ; gain = 0.000
 INFO: [Project 1-479] Netlist was created with Vivado 2018.3
 INFO: [Device 21-403] Loading part xc7a100ticsg324-1L
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -25,15 +25,15 @@ INFO: [Project 1-853] Binary constraint restore complete.
 Reading XDEF placement.
 Reading placer database...
 Reading XDEF routing.
-Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.078 . Memory (MB): peak = 1221.309 ; gain = 2.570
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.080 . Memory (MB): peak = 1221.836 ; gain = 2.566
 Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
-Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.078 . Memory (MB): peak = 1221.309 ; gain = 2.570
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1221.340 ; gain = 0.000
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.081 . Memory (MB): peak = 1221.836 ; gain = 2.566
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1221.859 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Project 1-604] Checkpoint was created with Vivado v2018.3 (64-bit) build 2405991
-open_checkpoint: Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1221.340 ; gain = 973.484
+open_checkpoint: Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1221.859 ; gain = 972.102
 Command: write_bitstream -force nexys_adder.bit
 Attempting to get a license for feature 'Implementation' and/or device 'xc7a100ti'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100ti'
@@ -66,5 +66,5 @@ INFO: [Project 1-120] WebTalk data collection is mandatory when using a WebPACK 
 INFO: [Common 17-83] Releasing license: Implementation
 20 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
 write_bitstream completed successfully
-write_bitstream: Time (s): cpu = 00:00:14 ; elapsed = 00:00:28 . Memory (MB): peak = 1730.449 ; gain = 509.109
-INFO: [Common 17-206] Exiting Vivado at Mon Oct 13 20:05:46 2025...
+write_bitstream: Time (s): cpu = 00:00:14 ; elapsed = 00:00:28 . Memory (MB): peak = 1726.973 ; gain = 505.113
+INFO: [Common 17-206] Exiting Vivado at Mon Oct 13 22:33:09 2025...

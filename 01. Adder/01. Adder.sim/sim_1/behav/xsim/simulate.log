@@ -1,3 +1,9 @@
 Vivado Simulator 2018.3
 Time resolution is 1 ps
+
 Test has been started
+
+
+Test has been finished. Check results at waveform window.
+
+$finish called at time : 45 ns : File "C:/Users/SZHerio/Desktop/APS/01. Adder/01. Adder.srcs/sources_1/new/lab_01.tb_fulladder.sv" Line 40
