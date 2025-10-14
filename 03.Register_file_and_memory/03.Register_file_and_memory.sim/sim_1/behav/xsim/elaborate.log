@@ -1,0 +1,16 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto f78ac3d8b39f47a99a1806c0cb0c81d0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot lab_03_tb_register_file_behav xil_defaultlib.lab_03_tb_register_file xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3705] select index 32 into 'rf_mem' is out of bounds [C:/Users/SZHerio/Desktop/APS/03.Register_file_and_memory/03.Register_file_and_memory.srcs/sources_1/new/lab_03.tb_register_file.sv:72]
+WARNING: [VRFC 10-3705] select index 32 into 'rf_mem' is out of bounds [C:/Users/SZHerio/Desktop/APS/03.Register_file_and_memory/03.Register_file_and_memory.srcs/sources_1/new/lab_03.tb_register_file.sv:73]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.register_file
+Compiling module xil_defaultlib.register_file_ref
+Compiling module xil_defaultlib.lab_03_tb_register_file
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot lab_03_tb_register_file_behav
