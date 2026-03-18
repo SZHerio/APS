@@ -1,0 +1,23 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../07.Datapath.srcs/sources_1/new/alu_opcodes_pkg.sv" \
+"../../../../07.Datapath.srcs/sources_1/new/ALU.sv" \
+"../../../../07.Datapath.srcs/sources_1/new/csr_pkg.sv" \
+"../../../../07.Datapath.srcs/sources_1/new/memory_pkg.sv" \
+"../../../../07.Datapath.srcs/sources_1/new/data_mem.sv" \
+"../../../../07.Datapath.srcs/sources_1/new/decoder_pkg.sv" \
+"../../../../07.Datapath.srcs/sources_1/new/decoder.sv" \
+"../../../../07.Datapath.srcs/sources_1/new/fulladder1.sv" \
+"../../../../07.Datapath.srcs/sources_1/new/fulladder32.sv" \
+"../../../../07.Datapath.srcs/sources_1/new/fulladder4.sv" \
+"../../../../07.Datapath.srcs/sources_1/new/instr_mem.sv" \
+"../../../../07.Datapath.srcs/sources_1/new/processor_core.sv" \
+"../../../../07.Datapath.srcs/sources_1/new/processor_system.sv" \
+"../../../../07.Datapath.srcs/sources_1/new/register_file.sv" \
+"../../../../07.Datapath.srcs/sources_1/new/lab_07.tb_processor_system.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

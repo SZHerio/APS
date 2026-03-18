@@ -1,0 +1,33 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 7494db40fc104eed9bfe17c7ee03c8d9 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot lab_08_tb_lsu_behav xil_defaultlib.lab_08_tb_lsu xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+WARNING: [XSIM 43-4455] File "C:/Users/SZHerio/Desktop/APS/08.Load-store unit/08.Load-store unit.srcs/sources_1/new/lab_08.tb_lsu.sv" Line 107 : Unsupported feature in assertion/property/sequence 'past'. It will be ignored.
+WARNING: [XSIM 43-4127] File "C:/Users/SZHerio/Desktop/APS/08.Load-store unit/08.Load-store unit.srcs/sources_1/new/lab_08.tb_lsu.sv" Line 107 : The "System Verilog Assertion" is not supported yet for simulation. The statement will be ignored.
+WARNING: [XSIM 43-4127] File "C:/Users/SZHerio/Desktop/APS/08.Load-store unit/08.Load-store unit.srcs/sources_1/new/lab_08.tb_lsu.sv" Line 116 : The "System Verilog Assertion" is not supported yet for simulation. The statement will be ignored.
+WARNING: [XSIM 43-4127] File "C:/Users/SZHerio/Desktop/APS/08.Load-store unit/08.Load-store unit.srcs/sources_1/new/lab_08.tb_lsu.sv" Line 125 : The "System Verilog Assertion" is not supported yet for simulation. The statement will be ignored.
+WARNING: [XSIM 43-4127] File "C:/Users/SZHerio/Desktop/APS/08.Load-store unit/08.Load-store unit.srcs/sources_1/new/lab_08.tb_lsu.sv" Line 134 : The "System Verilog Assertion" is not supported yet for simulation. The statement will be ignored.
+WARNING: [XSIM 43-4127] File "C:/Users/SZHerio/Desktop/APS/08.Load-store unit/08.Load-store unit.srcs/sources_1/new/lab_08.tb_lsu.sv" Line 143 : The "System Verilog Assertion" is not supported yet for simulation. The statement will be ignored.
+WARNING: [XSIM 43-4127] File "C:/Users/SZHerio/Desktop/APS/08.Load-store unit/08.Load-store unit.srcs/sources_1/new/lab_08.tb_lsu.sv" Line 151 : The "System Verilog Assertion" is not supported yet for simulation. The statement will be ignored.
+WARNING: [XSIM 43-4127] File "C:/Users/SZHerio/Desktop/APS/08.Load-store unit/08.Load-store unit.srcs/sources_1/new/lab_08.tb_lsu.sv" Line 159 : The "System Verilog Assertion" is not supported yet for simulation. The statement will be ignored.
+WARNING: [XSIM 43-4127] File "C:/Users/SZHerio/Desktop/APS/08.Load-store unit/08.Load-store unit.srcs/sources_1/new/lab_08.tb_lsu.sv" Line 167 : The "System Verilog Assertion" is not supported yet for simulation. The statement will be ignored.
+WARNING: [XSIM 43-4127] File "C:/Users/SZHerio/Desktop/APS/08.Load-store unit/08.Load-store unit.srcs/sources_1/new/lab_08.tb_lsu.sv" Line 175 : The "System Verilog Assertion" is not supported yet for simulation. The statement will be ignored.
+WARNING: [XSIM 43-4127] File "C:/Users/SZHerio/Desktop/APS/08.Load-store unit/08.Load-store unit.srcs/sources_1/new/lab_08.tb_lsu.sv" Line 183 : The "System Verilog Assertion" is not supported yet for simulation. The statement will be ignored.
+WARNING: [XSIM 43-4127] File "C:/Users/SZHerio/Desktop/APS/08.Load-store unit/08.Load-store unit.srcs/sources_1/new/lab_08.tb_lsu.sv" Line 191 : The "System Verilog Assertion" is not supported yet for simulation. The statement will be ignored.
+WARNING: [XSIM 43-4127] File "C:/Users/SZHerio/Desktop/APS/08.Load-store unit/08.Load-store unit.srcs/sources_1/new/lab_08.tb_lsu.sv" Line 199 : The "System Verilog Assertion" is not supported yet for simulation. The statement will be ignored.
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/SZHerio/Desktop/APS/08.Load-store unit/08.Load-store unit.srcs/sources_1/new/lab_08.tb_lsu.sv" Line 11. Module lab_08_tb_lsu has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/SZHerio/Desktop/APS/08.Load-store unit/08.Load-store unit.srcs/sources_1/new/lsu.sv" Line 3. Module lsu has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/SZHerio/Desktop/APS/08.Load-store unit/08.Load-store unit.srcs/sources_1/new/lab_08.tb_lsu.sv" Line 209. Module lsu_ref has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/SZHerio/Desktop/APS/08.Load-store unit/08.Load-store unit.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.decoder_pkg
+Compiling package std.std
+Compiling module xil_defaultlib.lsu
+Compiling module xil_defaultlib.lsu_ref
+Compiling module xil_defaultlib.lab_08_tb_lsu
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot lab_08_tb_lsu_behav

@@ -1,0 +1,10 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/SZHerio/Desktop/APS/05.Decoder/05.Decoder.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+C:/Users/SZHerio/Desktop/APS/05.Decoder/05.Decoder.srcs/sources_1/new/alu_opcodes_pkg.sv,1764440826,systemVerilog,C:/Users/SZHerio/Desktop/APS/05.Decoder/05.Decoder.srcs/sources_1/new/decoder_pkg.sv,C:/Users/SZHerio/Desktop/APS/05.Decoder/05.Decoder.srcs/sources_1/new/csr_pkg.sv,,alu_opcodes_pkg,,,,,,,,
+C:/Users/SZHerio/Desktop/APS/05.Decoder/05.Decoder.srcs/sources_1/new/csr_pkg.sv,1764440827,systemVerilog,C:/Users/SZHerio/Desktop/APS/05.Decoder/05.Decoder.srcs/sources_1/new/decoder_pkg.sv,C:/Users/SZHerio/Desktop/APS/05.Decoder/05.Decoder.srcs/sources_1/new/decoder_pkg.sv,,csr_pkg,,,,,,,,
+C:/Users/SZHerio/Desktop/APS/05.Decoder/05.Decoder.srcs/sources_1/new/decoder.sv,1764543522,systemVerilog,,C:/Users/SZHerio/Desktop/APS/05.Decoder/05.Decoder.srcs/sources_1/new/lab_05.tb_decoder.sv,,decoder,,,,,,,,
+C:/Users/SZHerio/Desktop/APS/05.Decoder/05.Decoder.srcs/sources_1/new/decoder_pkg.sv,1764536719,systemVerilog,C:/Users/SZHerio/Desktop/APS/05.Decoder/05.Decoder.srcs/sources_1/new/decoder.sv;C:/Users/SZHerio/Desktop/APS/05.Decoder/05.Decoder.srcs/sources_1/new/lab_05.tb_decoder.sv,C:/Users/SZHerio/Desktop/APS/05.Decoder/05.Decoder.srcs/sources_1/new/decoder.sv,,decoder_pkg,,,,,,,,
+C:/Users/SZHerio/Desktop/APS/05.Decoder/05.Decoder.srcs/sources_1/new/lab_05.tb_decoder.sv,1764537967,systemVerilog,,,,branch_table;csr_we_table;decoder_ref;gpr_we_table;jalr_table;lab_05_tb_decoder;mem_req_table;mem_we_table,,,,,,,,

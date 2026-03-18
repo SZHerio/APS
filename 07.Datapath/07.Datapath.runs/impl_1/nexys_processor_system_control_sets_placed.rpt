@@ -1,0 +1,201 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Mon Dec  1 12:42:31 2025
+| Host         : DESKTOP-B526498 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file nexys_processor_system_control_sets_placed.rpt
+| Design       : nexys_processor_system
+| Device       : xc7a100ti
+---------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |   135 |
+| Unused register locations in slices containing registers |    20 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |            1 |
+|     10 |            1 |
+|    16+ |          133 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              19 |            7 |
+| No           | No                    | Yes                    |              10 |            3 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |              32 |           20 |
+| Yes          | No                    | Yes                    |              16 |            5 |
+| Yes          | Yes                   | No                     |            4127 |         1746 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------+--------------------------------------+--------------------------------------+------------------+----------------+
+|   Clock Signal   |             Enable Signal            |           Set/Reset Signal           | Slice Load Count | Bel Load Count |
++------------------+--------------------------------------+--------------------------------------+------------------+----------------+
+|  bufg_clk        |                                      |                                      |                1 |              1 |
+|  clk_i_IBUF_BUFG |                                      | unit/core/SR[0]                      |                3 |             10 |
+|  clk_i_IBUF_BUFG | semseg_one2many/an_en                | unit/core/SR[0]                      |                5 |             16 |
+|  clk_i_IBUF_BUFG |                                      |                                      |                6 |             18 |
+|  bufg_clk        | unit/core/regfile/E[0]               | unit/core/SR[0]                      |               23 |             31 |
+|  bufg_clk        | unit/core/regfile/ram[10][31]_i_5_2  | unit/core/regfile/ram[3][31]_i_3_3   |               10 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[103][31]_i_3_0 | unit/core/regfile/ram[109][31]_i_2_0 |               13 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[10][31]_i_4_0  | unit/core/regfile/ram[4][31]_i_2_0   |                9 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[116][31]_i_3_0 | unit/core/regfile/ram[126][31]_i_2_0 |               13 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[13][31]_i_3_2  | unit/core/regfile/ram[3][31]_i_3_28  |               10 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[13][31]_i_3_3  | unit/core/regfile/ram[3][31]_i_3_29  |               11 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[17][31]_i_4_11 | unit/core/regfile/ram[92][31]_i_2_0  |               10 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[17][31]_i_4_15 | unit/core/regfile/ram[110][31]_i_2_0 |               13 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[17][31]_i_4_18 | unit/core/regfile/ram[114][31]_i_2_0 |               16 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[17][31]_i_4_2  | unit/core/regfile/ram[35][31]_i_2_0  |               11 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[17][31]_i_4_21 | unit/core/regfile/ram[3][31]_i_3_1   |               13 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[17][31]_i_4_22 | unit/core/regfile/ram[3][31]_i_3_2   |               11 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[17][31]_i_4_3  | unit/core/regfile/ram[50][31]_i_2_0  |               13 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[17][31]_i_4_5  | unit/core/regfile/ram[54][31]_i_2_0  |               10 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[17][31]_i_4_6  | unit/core/regfile/ram[56][31]_i_2_0  |               11 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[17][31]_i_4_7  | unit/core/regfile/ram[57][31]_i_2_0  |               11 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[17][31]_i_4_14 | unit/core/regfile/ram[105][31]_i_2_0 |               17 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[13][31]_i_3_4  | unit/core/regfile/ram[3][31]_i_3_30  |               11 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[17][31]_i_4_1  | unit/core/regfile/ram[25][31]_i_2_0  |               22 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[12][31]_i_3_0  | unit/core/regfile/ram[18][31]_i_2_0  |               18 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[17][31]_i_4_8  | unit/core/regfile/ram[59][31]_i_2_0  |               13 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[17][31]_i_4_12 | unit/core/regfile/ram[93][31]_i_2_0  |               13 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[17][31]_i_4_9  | unit/core/regfile/ram[60][31]_i_2_0  |               14 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[13][31]_i_3_0  | unit/core/regfile/ram[3][31]_i_3_19  |               13 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[17][31]_i_4_4  | unit/core/regfile/ram[53][31]_i_2_0  |               14 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[17][31]_i_4_13 | unit/core/regfile/ram[95][31]_i_2_0  |               12 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[17][31]_i_4_19 | unit/core/regfile/ram[115][31]_i_2_0 |               13 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[17][31]_i_4_20 | unit/core/regfile/ram[3][31]_i_3_0   |               13 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[17][31]_i_4_16 | unit/core/regfile/ram[112][31]_i_2_0 |               14 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[17][31]_i_4_0  | unit/core/regfile/ram[19][31]_i_2_0  |               19 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[17][31]_i_4_17 | unit/core/regfile/ram[113][31]_i_2_0 |               13 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[17][31]_i_4    | unit/core/regfile/ram[17][31]_i_2_0  |               15 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[17][31]_i_4_10 | unit/core/regfile/ram[66][31]_i_2_0  |               15 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[13][31]_i_3_1  | unit/core/regfile/ram[3][31]_i_3_25  |               12 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[39][31]_i_4_0  | unit/core/regfile/ram[3][31]_i_3_5   |               14 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[39][31]_i_4_1  | unit/core/regfile/ram[3][31]_i_3_6   |               12 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[39][31]_i_4_2  | unit/core/regfile/ram[3][31]_i_3_9   |               13 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[31][31]_i_3_5  | unit/core/regfile/ram[3][31]_i_3_15  |               20 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[31][31]_i_3_4  | unit/core/regfile/ram[3][31]_i_3_14  |               18 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[31][31]_i_3_6  | unit/core/regfile/ram[3][31]_i_3_16  |               16 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[31][31]_i_3_3  | unit/core/regfile/ram[3][31]_i_3_13  |               17 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[31][31]_i_3_0  | unit/core/regfile/ram[3][31]_i_3_10  |               15 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[39][31]_i_3_0  | unit/core/regfile/ram[14][31]_i_2_0  |               15 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[31][31]_i_3_2  | unit/core/regfile/ram[3][31]_i_3_12  |               17 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[38][31]_i_3_0  | unit/core/regfile/ram[3][31]_i_3_54  |               11 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[31][31]_i_3_1  | unit/core/regfile/ram[3][31]_i_3_11  |               18 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[3][31]_i_4_0   | unit/core/regfile/ram[108][31]_i_2_0 |               13 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[3][31]_i_4_1   | unit/core/regfile/ram[68][31]_i_2_0  |               15 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[3][31]_i_4_2   | unit/core/regfile/ram[3][31]_i_3_7   |                9 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[3][31]_i_5     | unit/core/regfile/ram[9][31]_i_2_0   |               11 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[3][31]_i_5_18  | unit/core/regfile/ram[102][31]_i_2_0 |               13 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[3][31]_i_5_14  | unit/core/regfile/ram[88][31]_i_2_0  |                9 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[3][31]_i_5_10  | unit/core/regfile/ram[64][31]_i_2_0  |               14 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[3][31]_i_5_1   | unit/core/regfile/ram[16][31]_i_2_0  |               19 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[3][31]_i_5_23  | unit/core/regfile/ram[21][31]_i_2_0  |               19 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[3][31]_i_5_24  | unit/core/regfile/ram[3][31]_i_3_21  |               10 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[3][31]_i_5_17  | unit/core/regfile/ram[101][31]_i_2_0 |               17 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[3][31]_i_5_26  | unit/core/regfile/ram[3][31]_i_3_23  |               21 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[3][31]_i_5_25  | unit/core/regfile/ram[3][31]_i_3_22  |               12 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[3][31]_i_5_9   | unit/core/regfile/ram[61][31]_i_2_0  |               10 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[3][31]_i_5_19  | unit/core/regfile/ram[117][31]_i_2_0 |               15 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[3][31]_i_5_20  | unit/core/regfile/ram[120][31]_i_2_0 |               13 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[3][31]_i_5_7   | unit/core/regfile/ram[51][31]_i_2_0  |               12 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[3][31]_i_5_28  | unit/core/regfile/ram[3][31]_i_3_31  |               13 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[3][31]_i_5_2   | unit/core/regfile/ram[40][31]_i_2_0  |               17 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[3][31]_i_5_21  | unit/core/regfile/ram[127][31]_i_2_0 |               11 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[3][31]_i_5_5   | unit/core/regfile/ram[45][31]_i_2_0  |               18 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[3][31]_i_5_27  | unit/core/regfile/ram[3][31]_i_3_24  |               13 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[3][31]_i_5_29  | unit/core/regfile/ram[3][31]_i_3_32  |               13 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[3][31]_i_5_8   | unit/core/regfile/ram[58][31]_i_2_0  |               12 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[3][31]_i_5_13  | unit/core/regfile/ram[75][31]_i_2_0  |               12 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[3][31]_i_5_6   | unit/core/regfile/ram[49][31]_i_2_0  |               12 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[3][31]_i_5_16  | unit/core/regfile/ram[96][31]_i_2_0  |                9 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[3][31]_i_5_22  | unit/core/regfile/ram[3][31]_i_3     |               13 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[3][31]_i_5_15  | unit/core/regfile/ram[89][31]_i_2_0  |               10 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[3][31]_i_5_4   | unit/core/regfile/ram[42][31]_i_2_0  |               15 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[3][31]_i_5_0   | unit/core/regfile/ram[12][31]_i_2_0  |               17 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[3][31]_i_5_3   | unit/core/regfile/ram[41][31]_i_2_0  |               10 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[3][31]_i_5_12  | unit/core/regfile/ram[74][31]_i_2_0  |               15 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[3][31]_i_5_11  | unit/core/regfile/ram[72][31]_i_2_0  |               14 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[3][31]_i_5_30  | unit/core/regfile/ram[3][31]_i_3_33  |               11 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[62][31]_i_4_2  | unit/core/regfile/ram[3][31]_i_3_51  |               16 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[3][31]_i_9_2   | unit/core/regfile/ram[83][31]_i_2_0  |               10 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[52][31]_i_3_0  | unit/core/regfile/ram[3][31]_i_3_47  |               13 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[52][31]_i_3_1  | unit/core/regfile/ram[3][31]_i_3_52  |               10 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[62][31]_i_4_0  | unit/core/regfile/ram[3][31]_i_3_48  |               10 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[3][31]_i_9_1   | unit/core/regfile/ram[7][31]_i_2_0   |                9 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[3][31]_i_9_0   | unit/core/regfile/ram[3][31]_i_2_0   |               10 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[52][31]_i_3_2  | unit/core/regfile/ram[3][31]_i_3_53  |               11 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[62][31]_i_3_0  | unit/core/regfile/ram[20][31]_i_2_0  |               22 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[62][31]_i_3_2  | unit/core/regfile/ram[3][31]_i_3_49  |               21 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[62][31]_i_3_1  | unit/core/regfile/ram[15][31]_i_2_0  |               13 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[62][31]_i_4_1  | unit/core/regfile/ram[3][31]_i_3_50  |               15 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[5][31]_i_5_0   | unit/core/regfile/ram[3][31]_i_3_17  |               11 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[82][31]_i_3_3  | unit/core/regfile/ram[3][31]_i_3_41  |               19 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[82][31]_i_3_4  | unit/core/regfile/ram[3][31]_i_3_42  |               11 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[84][31]_i_3_2  | unit/core/regfile/ram[124][31]_i_2_0 |               10 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[78][31]_i_3_4  | unit/core/regfile/ram[3][31]_i_3_37  |               12 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[84][31]_i_3_1  | unit/core/regfile/ram[85][31]_i_2_0  |               13 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[90][31]_i_3_1  | unit/core/regfile/ram[80][31]_i_2_0  |               15 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[90][31]_i_3_2  | unit/core/regfile/ram[81][31]_i_2_0  |               16 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[82][31]_i_3_8  | unit/core/regfile/ram[3][31]_i_3_46  |               14 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[90][31]_i_3_0  | unit/core/regfile/ram[90][31]_i_2_0  |               10 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[74][31]_i_3_0  | unit/core/regfile/ram[98][31]_i_2_0  |               13 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[90][31]_i_3_3  | unit/core/regfile/ram[3][31]_i_3_18  |               12 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[82][31]_i_3_1  | unit/core/regfile/ram[3][31]_i_3_39  |               14 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[82][31]_i_3_5  | unit/core/regfile/ram[3][31]_i_3_43  |               14 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[84][31]_i_3_0  | unit/core/regfile/ram[84][31]_i_2_0  |               13 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[78][31]_i_3_0  | unit/core/regfile/ram[125][31]_i_2_0 |               11 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[78][31]_i_3_2  | unit/core/regfile/ram[3][31]_i_3_35  |               10 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[69][31]_i_3_0  | unit/core/regfile/ram[3][31]_i_3_20  |               16 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[78][31]_i_3_5  | unit/core/regfile/ram[3][31]_i_3_38  |               13 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[78][31]_i_3_3  | unit/core/regfile/ram[3][31]_i_3_36  |               17 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[82][31]_i_3_2  | unit/core/regfile/ram[3][31]_i_3_40  |               16 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[69][31]_i_3_1  | unit/core/regfile/ram[3][31]_i_3_26  |               16 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[78][31]_i_3_1  | unit/core/regfile/ram[3][31]_i_3_34  |               12 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[69][31]_i_3_2  | unit/core/regfile/ram[3][31]_i_3_27  |               14 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[82][31]_i_3_6  | unit/core/regfile/ram[3][31]_i_3_44  |               17 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[82][31]_i_3_7  | unit/core/regfile/ram[3][31]_i_3_45  |               13 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[10][31]_i_5_3  | unit/core/regfile/ram[3][31]_i_3_4   |               13 |             32 |
+|  bufg_clk        | unit/core/regfile/p_0_in__1[0]       | unit/core/regfile/ram[3][31]_i_3_8   |               13 |             32 |
+|  bufg_clk        | unit/core/regfile/p_0_in[0]          | unit/core/regfile/ram[97][31]_i_2_0  |               11 |             32 |
+|  bufg_clk        | unit/core/regfile/p_0_in__0[0]       | unit/core/regfile/ram[122][31]_i_2_0 |               13 |             32 |
+|  bufg_clk        | unit/core/regfile/p_0_in__2[0]       | unit/core/regfile/ram[116][31]_i_2_0 |               11 |             32 |
+|  bufg_clk        | unit/core/regfile/p_0_in__3[0]       | unit/core/regfile/ram[91][31]_i_2_0  |               13 |             32 |
+|  bufg_clk        | unit/core/E[0]                       |                                      |               20 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[10][31]_i_5_0  | unit/core/regfile/ram[79][31]_i_2_0  |               11 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[10][31]_i_5_1  | unit/core/regfile/ram[46][31]_i_2_0  |               15 |             32 |
+|  bufg_clk        | unit/core/regfile/ram[82][31]_i_3_0  | unit/core/regfile/ram[121][31]_i_2_0 |               12 |             32 |
+|  bufg_clk        | unit/core/regfile/p_0_in__4          |                                      |               12 |             96 |
++------------------+--------------------------------------+--------------------------------------+------------------+----------------+
+
+

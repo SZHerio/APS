@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Dec  1 13:11:53 2025
+# Process ID: 30860
+# Current directory: C:/Users/SZHerio/Desktop/APS/07.Datapath
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent26184 C:\Users\SZHerio\Desktop\APS\07.Datapath\07.Datapath.xpr
+# Log file: C:/Users/SZHerio/Desktop/APS/07.Datapath/vivado.log
+# Journal file: C:/Users/SZHerio/Desktop/APS/07.Datapath\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/SZHerio/Desktop/APS/07.Datapath/07.Datapath.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Users/SZHerio/Desktop/APS/07.Datapath/lab_07_tb_processor_system_behav.wcfg
+source lab_07_tb_processor_system.tcl
+close_sim

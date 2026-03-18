@@ -1,0 +1,16 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/SZHerio/Desktop/APS/04.Prim_prog_dev/04.Prim_prog_dev.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+C:/Users/SZHerio/Desktop/APS/04.Prim_prog_dev/04.Prim_prog_dev.srcs/sources_1/new/ALU.sv,1760980455,systemVerilog,,C:/Users/SZHerio/Desktop/APS/04.Prim_prog_dev/04.Prim_prog_dev.srcs/sources_1/new/CYBERcobra.sv,,alu,,,,,,,,
+C:/Users/SZHerio/Desktop/APS/04.Prim_prog_dev/04.Prim_prog_dev.srcs/sources_1/new/CYBERcobra.sv,1760947274,systemVerilog,,C:/Users/SZHerio/Desktop/APS/04.Prim_prog_dev/04.Prim_prog_dev.srcs/sources_1/new/fulladder1.sv,,CYBERcobra,,,,,,,,
+C:/Users/SZHerio/Desktop/APS/04.Prim_prog_dev/04.Prim_prog_dev.srcs/sources_1/new/alu_opcodes_pkg.sv,1760382612,systemVerilog,C:/Users/SZHerio/Desktop/APS/04.Prim_prog_dev/04.Prim_prog_dev.srcs/sources_1/new/ALU.sv,C:/Users/SZHerio/Desktop/APS/04.Prim_prog_dev/04.Prim_prog_dev.srcs/sources_1/new/ALU.sv,,alu_opcodes_pkg,,,,,,,,
+C:/Users/SZHerio/Desktop/APS/04.Prim_prog_dev/04.Prim_prog_dev.srcs/sources_1/new/fulladder1.sv,1760374107,systemVerilog,,C:/Users/SZHerio/Desktop/APS/04.Prim_prog_dev/04.Prim_prog_dev.srcs/sources_1/new/fulladder32.sv,,fulladder1,,,,,,,,
+C:/Users/SZHerio/Desktop/APS/04.Prim_prog_dev/04.Prim_prog_dev.srcs/sources_1/new/fulladder32.sv,1760374533,systemVerilog,,C:/Users/SZHerio/Desktop/APS/04.Prim_prog_dev/04.Prim_prog_dev.srcs/sources_1/new/fulladder4.sv,,fulladder32,,,,,,,,
+C:/Users/SZHerio/Desktop/APS/04.Prim_prog_dev/04.Prim_prog_dev.srcs/sources_1/new/fulladder4.sv,1760374313,systemVerilog,,C:/Users/SZHerio/Desktop/APS/04.Prim_prog_dev/04.Prim_prog_dev.srcs/sources_1/new/memory_pkg.sv,,fulladder4,,,,,,,,
+C:/Users/SZHerio/Desktop/APS/04.Prim_prog_dev/04.Prim_prog_dev.srcs/sources_1/new/instr_mem.sv,1760941745,systemVerilog,,C:/Users/SZHerio/Desktop/APS/04.Prim_prog_dev/04.Prim_prog_dev.srcs/sources_1/new/register_file.sv,,instr_mem,,,,,,,,
+C:/Users/SZHerio/Desktop/APS/04.Prim_prog_dev/04.Prim_prog_dev.srcs/sources_1/new/lab_04.tb_cybercobra.sv,1764555180,systemVerilog,,,,lab_04_tb_CYBERcobra,,,,,,,,
+C:/Users/SZHerio/Desktop/APS/04.Prim_prog_dev/04.Prim_prog_dev.srcs/sources_1/new/memory_pkg.sv,1760449595,systemVerilog,C:/Users/SZHerio/Desktop/APS/04.Prim_prog_dev/04.Prim_prog_dev.srcs/sources_1/new/instr_mem.sv,C:/Users/SZHerio/Desktop/APS/04.Prim_prog_dev/04.Prim_prog_dev.srcs/sources_1/new/instr_mem.sv,,memory_pkg,,,,,,,,
+C:/Users/SZHerio/Desktop/APS/04.Prim_prog_dev/04.Prim_prog_dev.srcs/sources_1/new/nexys_cybercobra.sv,1761980052,systemVerilog,,,,$unit_nexys_cybercobra_sv;char2semseg;debounce;nexys_CYBERcobra;nexys_CYBERcobra_decoder;semseg_one2many;sync,,,,,,,,
+C:/Users/SZHerio/Desktop/APS/04.Prim_prog_dev/04.Prim_prog_dev.srcs/sources_1/new/register_file.sv,1760942563,systemVerilog,,C:/Users/SZHerio/Desktop/APS/04.Prim_prog_dev/04.Prim_prog_dev.srcs/sources_1/new/lab_04.tb_cybercobra.sv,,register_file,,,,,,,,

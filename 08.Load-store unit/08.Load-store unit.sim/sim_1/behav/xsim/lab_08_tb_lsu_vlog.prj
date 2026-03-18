@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../08.Load-store unit.srcs/sources_1/new/decoder_pkg.sv" \
+"../../../../08.Load-store unit.srcs/sources_1/new/lsu.sv" \
+"../../../../08.Load-store unit.srcs/sources_1/new/lab_08.tb_lsu.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

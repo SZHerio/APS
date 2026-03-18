@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat Nov  1 09:54:36 2025
+# Process ID: 30668
+# Current directory: C:/Users/SZHerio/Desktop/APS/04.Prim_prog_dev
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12504 C:\Users\SZHerio\Desktop\APS\04.Prim_prog_dev\04.Prim_prog_dev.xpr
+# Log file: C:/Users/SZHerio/Desktop/APS/04.Prim_prog_dev/vivado.log
+# Journal file: C:/Users/SZHerio/Desktop/APS/04.Prim_prog_dev\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/SZHerio/Desktop/APS/04.Prim_prog_dev/04.Prim_prog_dev.xpr
+update_compile_order -fileset sources_1
+add_files -fileset constrs_1 -norecurse C:/Users/SZHerio/Desktop/APS/04.Prim_prog_dev/04.Prim_prog_dev.srcs/sources_1/new/nexys_a7_100t.xdc
+add_files -norecurse C:/Users/SZHerio/Desktop/APS/04.Prim_prog_dev/04.Prim_prog_dev.srcs/sources_1/new/nexys_cybercobra.sv
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top nexys_CYBERcobra [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1

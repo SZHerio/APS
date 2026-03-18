@@ -1,0 +1,1 @@
+-wto "1d161b33779746349bd96a3df4f2dc5c" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "nexys_processor_system_behav" "xil_defaultlib.nexys_processor_system" "xil_defaultlib.glbl" -log "elaborate.log" 

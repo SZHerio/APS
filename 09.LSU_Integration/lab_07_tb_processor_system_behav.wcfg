@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="lab_07_tb_processor_system_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="alu_opcodes_pkg" />
+            <top_module name="csr_pkg" />
+            <top_module name="decoder_pkg" />
+            <top_module name="glbl" />
+            <top_module name="lab_07_tb_processor_system" />
+            <top_module name="memory_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="505789200fs"></ZoomStartTime>
+      <ZoomEndTime time="637389201fs"></ZoomEndTime>
+      <Cursor1Time time="585309000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="142"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="39" />
+   <wvobject fp_name="/lab_07_tb_processor_system/DUT/core/clk_i" type="logic">
+      <obj_property name="ElementShortName">clk_i</obj_property>
+      <obj_property name="ObjectShortName">clk_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab_07_tb_processor_system/DUT/core/rst_i" type="logic">
+      <obj_property name="ElementShortName">rst_i</obj_property>
+      <obj_property name="ObjectShortName">rst_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab_07_tb_processor_system/DUT/core/stall_i" type="logic">
+      <obj_property name="ElementShortName">stall_i</obj_property>
+      <obj_property name="ObjectShortName">stall_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab_07_tb_processor_system/DUT/core/instr_i" type="array">
+      <obj_property name="ElementShortName">instr_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab_07_tb_processor_system/DUT/core/mem_rd_i" type="array">
+      <obj_property name="ElementShortName">mem_rd_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_rd_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab_07_tb_processor_system/DUT/core/instr_addr_o" type="array">
+      <obj_property name="ElementShortName">instr_addr_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_addr_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab_07_tb_processor_system/DUT/core/mem_addr_o" type="array">
+      <obj_property name="ElementShortName">mem_addr_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_addr_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab_07_tb_processor_system/DUT/core/mem_size_o" type="array">
+      <obj_property name="ElementShortName">mem_size_o[2:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_size_o[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab_07_tb_processor_system/DUT/core/mem_req_o" type="logic">
+      <obj_property name="ElementShortName">mem_req_o</obj_property>
+      <obj_property name="ObjectShortName">mem_req_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab_07_tb_processor_system/DUT/core/mem_we_o" type="logic">
+      <obj_property name="ElementShortName">mem_we_o</obj_property>
+      <obj_property name="ObjectShortName">mem_we_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab_07_tb_processor_system/DUT/core/mem_wd_o" type="array">
+      <obj_property name="ElementShortName">mem_wd_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_wd_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab_07_tb_processor_system/DUT/core/dec_a_sel" type="array">
+      <obj_property name="ElementShortName">dec_a_sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">dec_a_sel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab_07_tb_processor_system/DUT/core/dec_b_sel" type="array">
+      <obj_property name="ElementShortName">dec_b_sel[2:0]</obj_property>
+      <obj_property name="ObjectShortName">dec_b_sel[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab_07_tb_processor_system/DUT/core/dec_alu_op" type="array">
+      <obj_property name="ElementShortName">dec_alu_op[4:0]</obj_property>
+      <obj_property name="ObjectShortName">dec_alu_op[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab_07_tb_processor_system/DUT/core/dec_gpr_we" type="logic">
+      <obj_property name="ElementShortName">dec_gpr_we</obj_property>
+      <obj_property name="ObjectShortName">dec_gpr_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab_07_tb_processor_system/DUT/core/dec_wb_sel" type="array">
+      <obj_property name="ElementShortName">dec_wb_sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">dec_wb_sel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab_07_tb_processor_system/DUT/core/dec_branch" type="logic">
+      <obj_property name="ElementShortName">dec_branch</obj_property>
+      <obj_property name="ObjectShortName">dec_branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab_07_tb_processor_system/DUT/core/dec_jal" type="logic">
+      <obj_property name="ElementShortName">dec_jal</obj_property>
+      <obj_property name="ObjectShortName">dec_jal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab_07_tb_processor_system/DUT/core/dec_jalr" type="logic">
+      <obj_property name="ElementShortName">dec_jalr</obj_property>
+      <obj_property name="ObjectShortName">dec_jalr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab_07_tb_processor_system/DUT/core/reg_write_enable" type="logic">
+      <obj_property name="ElementShortName">reg_write_enable</obj_property>
+      <obj_property name="ObjectShortName">reg_write_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab_07_tb_processor_system/DUT/core/reg_read_addr1" type="array">
+      <obj_property name="ElementShortName">reg_read_addr1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_read_addr1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab_07_tb_processor_system/DUT/core/reg_read_addr2" type="array">
+      <obj_property name="ElementShortName">reg_read_addr2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_read_addr2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab_07_tb_processor_system/DUT/core/reg_write_addr" type="array">
+      <obj_property name="ElementShortName">reg_write_addr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_write_addr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab_07_tb_processor_system/DUT/core/reg_write_data" type="array">
+      <obj_property name="ElementShortName">reg_write_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_write_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab_07_tb_processor_system/DUT/core/reg_read_data1" type="array">
+      <obj_property name="ElementShortName">reg_read_data1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_read_data1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab_07_tb_processor_system/DUT/core/reg_read_data2" type="array">
+      <obj_property name="ElementShortName">reg_read_data2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_read_data2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab_07_tb_processor_system/DUT/core/wb_data" type="array">
+      <obj_property name="ElementShortName">wb_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab_07_tb_processor_system/DUT/core/PC" type="array">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab_07_tb_processor_system/DUT/core/PC_res" type="array">
+      <obj_property name="ElementShortName">PC_res[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_res[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab_07_tb_processor_system/DUT/core/flag_res" type="logic">
+      <obj_property name="ElementShortName">flag_res</obj_property>
+      <obj_property name="ObjectShortName">flag_res</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab_07_tb_processor_system/DUT/core/a_res" type="array">
+      <obj_property name="ElementShortName">a_res[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a_res[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab_07_tb_processor_system/DUT/core/b_res" type="array">
+      <obj_property name="ElementShortName">b_res[31:0]</obj_property>
+      <obj_property name="ObjectShortName">b_res[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab_07_tb_processor_system/DUT/core/alu_res" type="array">
+      <obj_property name="ElementShortName">alu_res[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_res[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab_07_tb_processor_system/DUT/core/branch_res" type="array">
+      <obj_property name="ElementShortName">branch_res[31:0]</obj_property>
+      <obj_property name="ObjectShortName">branch_res[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab_07_tb_processor_system/DUT/core/jal_output" type="array">
+      <obj_property name="ElementShortName">jal_output[31:0]</obj_property>
+      <obj_property name="ObjectShortName">jal_output[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab_07_tb_processor_system/DUT/core/PC_jal_result" type="array">
+      <obj_property name="ElementShortName">PC_jal_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_jal_result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab_07_tb_processor_system/DUT/core/PC_jal_adder_carry_o" type="logic">
+      <obj_property name="ElementShortName">PC_jal_adder_carry_o</obj_property>
+      <obj_property name="ObjectShortName">PC_jal_adder_carry_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab_07_tb_processor_system/DUT/core/RD1_imm_I_adder_carry_o" type="logic">
+      <obj_property name="ElementShortName">RD1_imm_I_adder_carry_o</obj_property>
+      <obj_property name="ObjectShortName">RD1_imm_I_adder_carry_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab_07_tb_processor_system/DUT/core/offset_res" type="array">
+      <obj_property name="ElementShortName">offset_res[31:0]</obj_property>
+      <obj_property name="ObjectShortName">offset_res[31:0]</obj_property>
+   </wvobject>
+</wave_config>

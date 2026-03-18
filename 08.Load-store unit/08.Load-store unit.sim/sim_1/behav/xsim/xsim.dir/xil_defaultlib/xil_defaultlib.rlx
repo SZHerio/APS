@@ -1,0 +1,8 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/SZHerio/Desktop/APS/08.Load-store unit/08.Load-store unit.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+C:/Users/SZHerio/Desktop/APS/08.Load-store unit/08.Load-store unit.srcs/sources_1/new/decoder_pkg.sv,1765723604,systemVerilog,C:/Users/SZHerio/Desktop/APS/08.Load-store unit/08.Load-store unit.srcs/sources_1/new/lab_08.tb_lsu.sv;C:/Users/SZHerio/Desktop/APS/08.Load-store unit/08.Load-store unit.srcs/sources_1/new/lsu.sv,C:/Users/SZHerio/Desktop/APS/08.Load-store unit/08.Load-store unit.srcs/sources_1/new/lsu.sv,,decoder_pkg,,,,,,,,
+C:/Users/SZHerio/Desktop/APS/08.Load-store unit/08.Load-store unit.srcs/sources_1/new/lab_08.tb_lsu.sv,1765741249,systemVerilog,,,,lab_08_tb_lsu;lsu_ref,,,,,,,,
+C:/Users/SZHerio/Desktop/APS/08.Load-store unit/08.Load-store unit.srcs/sources_1/new/lsu.sv,1765743179,systemVerilog,,C:/Users/SZHerio/Desktop/APS/08.Load-store unit/08.Load-store unit.srcs/sources_1/new/lab_08.tb_lsu.sv,,lsu,,,,,,,,

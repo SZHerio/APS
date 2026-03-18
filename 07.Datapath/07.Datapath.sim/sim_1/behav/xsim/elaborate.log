@@ -1,0 +1,10 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 1d161b33779746349bd96a3df4f2dc5c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot lab_07_tb_processor_system_behav xil_defaultlib.lab_07_tb_processor_system xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+WARNING: [XSIM 43-4455] File "C:/Users/SZHerio/Desktop/APS/07.Datapath/07.Datapath.srcs/sources_1/new/lab_07.tb_processor_system.sv" Line 36 : Unsupported feature in assertion/property/sequence 'past'. It will be ignored.
+WARNING: [XSIM 43-4127] File "C:/Users/SZHerio/Desktop/APS/07.Datapath/07.Datapath.srcs/sources_1/new/lab_07.tb_processor_system.sv" Line 36 : The "System Verilog Assertion" is not supported yet for simulation. The statement will be ignored.
+WARNING: [XSIM 43-4127] File "C:/Users/SZHerio/Desktop/APS/07.Datapath/07.Datapath.srcs/sources_1/new/lab_07.tb_processor_system.sv" Line 41 : The "System Verilog Assertion" is not supported yet for simulation. The statement will be ignored.
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
